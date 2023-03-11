@@ -1,0 +1,12 @@
+ type Etudiant{
+ cin:String!
+ nom:String!
+ prenom:String!
+ email:String!
+ }
+ type Query{
+ allStudents: [Etudiant]
+ }
+ schema{
+ query: Query
+ }
